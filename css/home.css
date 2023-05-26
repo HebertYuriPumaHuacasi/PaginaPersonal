@@ -30,9 +30,9 @@ body {
 }
 
 .btn {
-    position: absolute;
+    /*position: absolute;
     top: 20px;
-    left: 250px;
+    left: 250px;*/
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -54,3 +54,28 @@ body {
     --btnBg: var(--white);
     --btnFontColor: var(--black);
 }
+
+nav {
+    background-color: var(--btnBg);
+    height: 50px;
+}
+  
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+  
+li {
+    margin: 0 10px;
+}
+  
+a {
+    color: var(--btnFontColor);
+    text-decoration: none;
+}
+
